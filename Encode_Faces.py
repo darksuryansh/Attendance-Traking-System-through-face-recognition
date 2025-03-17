@@ -7,7 +7,7 @@ known_face_encodings = []
 known_face_names = []
 
 # Loop through the dataset
-dataset_folder = "dataset"
+dataset_folder = "preprocessed_dataset"
 for person_name in os.listdir(dataset_folder):
     person_folder = os.path.join(dataset_folder, person_name)
     for image_name in os.listdir(person_folder):
